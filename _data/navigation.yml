@@ -18,9 +18,7 @@ en: &DEFAULT_EN
     - title: "Format"
       section: format
     - title: "Important Dates"
-      section: dates
-    - title: "Submission Instructions"
-      section: dates
+      section: timeline
     - title: "Organizers"
       section: organizers
 

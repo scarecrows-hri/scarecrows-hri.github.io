@@ -21,15 +21,15 @@ en: &DEFAULT_EN
     text: "Scarecrows are reliable, reproducible standins for humans in user-studies within human-robot interaction."
     section: scarecrows
     list:
-      - title: "E-Commerce"
+      - title: "LLMs as Standins (Scarecrows)"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
+        icon: fas fa-ghost #find more at https://fontawesome.com/icons
+      - title: "Humans as Standins"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+        icon: fas fa-user
+      - title: "LLMs as Nonscarecrows"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: fas fa-bars
 
   details:
     title: "Workshop Details"
@@ -49,36 +49,30 @@ en: &DEFAULT_EN
     section: dates
     closebutton: "Close Project"
 
-  # timeline:
-  #   title: "Timeline"
-  #   text: "Lorem ipsum timeline"
-  #   section: timeline
-  #   # left is the default
-  #   #start_align: "left"
-  #   events:
-  #     - title: "Our Humble Beginnings"
-  #       year: "2009-2011"
-  #       desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-  #       image: assets/img/timeline/1.jpg
-  #       alt:
-  #     - title: "An Agency is Born"
-  #       year: "March 2011"
-  #       desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-  #       image: assets/img/timeline/2.jpg
-  #       alt:
-  #     - title: "Jekyll Theme is created"
-  #       year: "2019"
-  #       desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-  #       image: assets/img/timeline/3.jpg
-  #       alt: image alt text
-  #     - title: "Title"
-  #       year: "2009-2011"
-  #       desc: "Your description here, **Markdown** is fully supported."
-  #       image: assets/img/timeline/4.jpg
-  #       alt:
-  #       # you can enforce the alignment
-  #       align: right
-  #   end: "Be Part <br> of Our <br> Story!"
+  timeline:
+    title: "Timeline"
+    text: "Schedule of important dates"
+    section: timeline
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "Submission Deadline"
+        year: "September 2023"
+        desc: "Full papers due"
+        image: assets/img/timeline/1.jpg
+        alt:
+      - title: "Paper reviews due"
+        year: "September 2023"
+        desc: "Full papers only"
+        image: assets/img/timeline/2.jpg
+        alt:
+      - title: "Submission notification"
+        year: "September 2023"
+        desc: "Notifications back to authors"
+        image: assets/img/timeline/3.jpg
+        alt: image alt text
+
+    end: "October 2023 - Workshop date!"
 
   # about:
   #   title: "About Us"
@@ -110,42 +104,52 @@ en: &DEFAULT_EN
     # subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: organizers
     people:
-      - name: "Nick DePalma"
-        role: "Interactive Robotics Researcher: Independent"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://www.linkedin.com/in/ndepalma/
-            icon: fab fa-linkedin-in
-      - name: "Ross mead"
-        role: "CEO"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
       - name: "Cynthia Matuszek"
-        role: "Assistant Professor - University of Maryland"
-        image: assets/img/team/500x500.jpg
+        role: "Associate Professor - University of Maryland"
+        image: assets/img/team/cmat.png
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+          # - url: https://twitter.com
+          #   icon: fab fa-twitter
+          # - url: https://facebook.com
+          #   icon: fab fa-facebook-f
+          # - url: https://linkedin.com
+          #   icon: fab fa-linkedin-in
+      - name: "Nick DePalma"
+        role: "Independent Scientist"
+        image: assets/img/team/nick.jpg
+        # social:
+        #   - url: https://www.linkedin.com/in/ndepalma/
+        #     icon: fab fa-linkedin-in
+      - name: "Ross Mead"
+        role: "Founder and CEO - Semio"
+        image: assets/img/team/RossMead.jpg
+        social:
+          # - url: https://twitter.com
+          #   icon: fab fa-twitter
+          # - url: https://facebook.com
+          #   icon: fab fa-facebook-f
+          # - url: https://linkedin.com
+          #   icon: fab fa-linkedin-in
       - name: "Tom Williams"
         role: "Assistant Professor - Colorado School of Mines"
-        image: assets/img/team/500x500.jpg
+        image: assets/img/team/tom.jpg
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+          # - url: https://twitter.com
+          #   icon: fab fa-twitter
+          # - url: https://facebook.com
+          #   icon: fab fa-facebook-f
+          # - url: https://linkedin.com
+          #   icon: fab fa-linkedin-in
+      - name: "Ruchen \"Puck\" Wen"
+        role: "Postdoc - University of Maryland"
+        image: assets/img/team/puck.png
+        social:
+          # - url: https://twitter.com
+          #   icon: fab fa-twitter
+          # - url: https://facebook.com
+          #   icon: fab fa-facebook-f
+          # - url: https://linkedin.com
+          #   icon: fab fa-linkedin-in
 
   # contact:
   #   title: "Contact Us"

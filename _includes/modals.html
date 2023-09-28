@@ -1,8 +1,8 @@
-<!-- Portfolio Modals -->
-{% for project in site.portfolio %}
+<!-- Details Modals -->
+{% for project in site.details %}
 {% if site.locale and site.locale != "" and site.locale != nil %}
 <div
-  class="portfolio-modal modal fade"
+  class="details-modal modal fade"
   id="p{{ forloop.index }}"
   tabindex="-1"
   role="dialog"
@@ -34,7 +34,7 @@
                 type="button"
               >
                 <i class="fas fa-times"></i>
-                {{ site.data.sitetext[site.locale].portfolio.closebutton |
+                {{ site.data.sitetext[site.locale].details.closebutton |
                 default: "Close Project" }}
               </button>
             </div>
@@ -46,7 +46,7 @@
 </div>
 {% else %}
 <div
-  class="portfolio-modal modal fade"
+  class="details-modal modal fade"
   id="p{{ forloop.index }}"
   tabindex="-1"
   role="dialog"
@@ -78,7 +78,7 @@
                 type="button"
               >
                 <i class="fas fa-times"></i>
-                {{ site.data.sitetext.portfolio.closebutton |
+                {{ site.data.sitetext.details.closebutton |
                 default: "Close Project" }}
               </button>
             </div>
@@ -90,4 +90,4 @@
 </div>
 {% endif %}
 {% endfor %}
-<!-- End Portfolio Modals -->
+<!-- End Details Modals -->
