@@ -56,23 +56,27 @@ en: &DEFAULT_EN
     # left is the default
     #start_align: "left"
     events:
-      - title: "Submission Deadline"
-        year: "September 2023"
-        desc: "Full papers due"
-        image: assets/img/timeline/1.jpg
-        alt:
-      - title: "Paper reviews due"
-        year: "September 2023"
-        desc: "Full papers only"
+      - title: "Submission site opens"
+        year: "January 15, 2024"
+        desc: "Quick link to be posted when available."
         image: assets/img/timeline/2.jpg
         alt:
+      - title: "Submission Deadline"
+        year: "January 29, 2024"
+        desc: "Short papers, 2-4 pages."
+        image: assets/img/timeline/1.jpg
+        alt:
       - title: "Submission notification"
-        year: "September 2023"
-        desc: "Notifications back to authors"
+        year: "February 19, 2024"
+        desc: "Notifications back to authors."
         image: assets/img/timeline/3.jpg
-        alt: image alt text
-
-    end: "October 2023 - Workshop date!"
+        alt: 
+      - title: "Camera-ready deadline"
+        year: "March 04, 2024"
+        desc: "Authors must have the final versions available for attendees."
+        image: assets/img/timeline/4.jpg
+        alt: 
+    end: "March 11 2024 - Workshop date! (half day)"
 
   # about:
   #   title: "About Us"
