@@ -1,14 +1,20 @@
 ---
 title: Aim and focus
-subtitle: subtitle lorem ipsum dolor sit amet consectetur.
-image: assets/img/portfolio/01-full.jpg
-alt: Shirts on a hanger
+subtitle: ""
+image: assets/img/custom/hires_icon-full.jpg
+alt: A robotic scarecrow
 
 caption:
   title: Aim and focus
-  subtitle: subtitle lorem ipsum dolor sit amet consectetur.
-  thumbnail: assets/img/portfolio/01-thumbnail.jpg
+  subtitle: "Please click for details."
+  thumbnail: assets/img/custom/hires_icon-thumb.jpg
 ---
-Use this area to describe your project. **Markdown** supported. This entry (project1.md) uses links for the image sources. All other projects in the portfolio use local images. Both work just fine! Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+We invite research regarding contributions, commentary, and questions about (and combinations of) the following topics of interest:
 
+* the impact of “stubbing out” software modules as “Scarecrows” (traditionally done with humans in Wizard-of-Oz contexts) by using LLMs when building and testing larger HRI experiments;
+* opportunities and applications of LLMs in HRI;
+* risks and perils of LLMs in interactive robots;
+* reporting guidelines, ethical considerations, or real-world implications of LLMs in HRI;
+* safety of LLM-driven interaction, and fine-tuned LLMs during interactions with the world or users; and/or
+* position or framing papers on the role of LLMs in HRI.
 

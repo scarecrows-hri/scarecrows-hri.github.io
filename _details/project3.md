@@ -1,18 +1,12 @@
 ---
 title: Schedule
-subtitle: Lorem ipsum dolor sit amet consectetur.
-image: assets/img/portfolio/03-full.jpg
+subtitle: ""
+image: assets/img/custom/hires_clock-full.jpg
 alt: 
 
 caption:
   title: Schedule
-  subtitle: Lorem ipsum dolor sit amet consectetur.
-  thumbnail: assets/img/portfolio/03-thumbnail.jpg
+  subtitle: Workshop schedule and speakers to come
+  thumbnail: assets/img/custom/hires_clock-thumb.jpg
 ---
-Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
-
-{:.list-inline}
-- Date: January 2017
-- Client: Finish
-- Category: Identity
-
+Scheduling and speaker details in progress.

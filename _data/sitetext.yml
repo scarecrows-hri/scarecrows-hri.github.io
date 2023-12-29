@@ -22,32 +22,32 @@ en: &DEFAULT_EN
     section: scarecrows
     list:
       - title: "LLMs as Standins (Scarecrows)"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        desc: "Similar to Wizard of Oz studies, LLMs may be used as standins to potentially control the experiment or the dialog in a reliable way [1].\n\n[1] Williams, T., Matuszek, C., Mead, R., and DePalma, N. (2024).  Scarecrows in Oz: The Use of Large Language Models in HRI. Journal of Human-Robot Interaction."
         icon: fas fa-ghost #find more at https://fontawesome.com/icons
       - title: "Humans as Standins"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        desc: "Traditionally this is called a wizard-of-oz study. These studies use humans as standins for autonomous components to better understand interaction outcomes. See [2] for more details. \n\n [2] Riek, L. D. (2012). Wizard of oz studies in hri: a systematic review and new reporting guidelines. Journal of Human-Robot Interaction, 1(1), 119-136."
         icon: fas fa-user
       - title: "LLMs as Nonscarecrows"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        desc: "Sometimes the user will not have direct interaction with the LLM. In these cases, we see LLMs as components of reasoning applied to gesture generation, navigation, or some other non-verbal task."
         icon: fas fa-bars
 
   details:
     title: "Workshop Details"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    text: "This workshop is generally focused on any topics related to the opportunities, risks, and guidelines for the use and reporting of Large Language Models in Human-Robot Interaction scenarios. \n\n If your work focuses on development, implementation, training, evaluation, and deployment of LLMs in HRI, please also consider our companion workshop: ***[[Human – Large Language Model Interaction: The dawn of a new era or the end of it all?](https://human-llm-interaction.github.io)]***."
     section: details
-    closebutton: "Close Project"
+    closebutton: "Return back"
 
   format:
     title: "Paper format"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    text: "Papers are to be submitted as short papers of 2-4 pages on the topic of the use of LLMs in HRI. Submissions should be made using the <a href=\"https://www.acm.org/publications/proceedings-template\">ACM template</a>. Alternatively, authors may use the provided Overleaf <a href=\"https://www.overleaf.com/latex/templates/acm-conference-proceedings-primary-article-template/wbvnghjbzwpc\">template</a>; Overleaf provides an appropriate template that may be used. Submissions will be made through EasyChair; the submission site will open on January 15, 2024. We will provide a link soon."
     section: format
-    closebutton: "Close Project"
+    closebutton: "Return back"
 
   dates:
     title: "Important Dates"
     text: "Lorem ipsum dolor sit amet consectetur."
     section: dates
-    closebutton: "Close Project"
+    closebutton: "Return back"
 
   timeline:
     title: "Timeline"
