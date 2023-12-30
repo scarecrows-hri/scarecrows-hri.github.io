@@ -1,13 +1,13 @@
 ---
 title: Aim and focus
 subtitle: ""
-image: assets/img/custom/hires_icon-full.jpg
+image: assets/img/custom/scarecrow-full.png
 alt: A robotic scarecrow
 
 caption:
   title: Aim and focus
   subtitle: "Please click for details."
-  thumbnail: assets/img/custom/hires_icon-thumb.jpg
+  thumbnail: assets/img/custom/scarecrow-thumb.png
 ---
 We invite research regarding contributions, commentary, and questions about (and combinations of) the following topics of interest:
 
