@@ -84,26 +84,29 @@ en: &DEFAULT_EN
     events:
       - title: "Submission site opens"
         year: "January 15, 2024"
-        desc: "Quick link to be posted when available."
+        desc: "[EasyChair Link](https://easychair.org/conferences/?conf=sohri24)"
         image: assets/img/timeline/2.jpg
         alt:
       - title: "Submission Deadline"
         year: "January 29, 2024"
-        desc: "Short papers, 2-4 pages."
+        desc: "Short papers, 2-4 pages: [Submit here](https://easychair.org/conferences/?conf=sohri24)."
         image: assets/img/timeline/1.jpg
         alt:
       - title: "Submission notification"
         year: "February 19, 2024"
-        desc: "Notifications back to authors."
+        desc: ""
         image: assets/img/timeline/3.jpg
         alt: 
       - title: "Camera-ready deadline"
         year: "March 04, 2024"
-        desc: "Authors must have the final versions available for attendees."
+        desc: ""
         image: assets/img/timeline/4.jpg
         alt: 
-    end: "March 11 2024 - Workshop date! (half day)"
-
+      - title: "Workshop date!"
+        year: "March 11, 2024"
+        desc: ""
+        image: assets/img/custom/scarecrow-full.png
+        alt: March 11 2024 - Workshop date! (half day)
   # about:
   #   title: "About Us"
   #   text: "our story"
@@ -130,12 +133,12 @@ en: &DEFAULT_EN
 
   organizers:
     title: "Organizers"
-    # text: "Lorem ipsum dolor sit amet consectetur."
-    # subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    text: "For questions and more information, please contact the organizers at [hri2024scarecrows@gmail.com](mailto:hri2024scarecrows@gmail.com)"
+    #subtext: test2
     section: organizers
     people:
       - name: "Cynthia Matuszek"
-        role: "Associate Professor - University of Maryland"
+        role: "Associate Professor <br /> University of Maryland"
         image: assets/img/team/cmat.png
         social:
           # - url: https://twitter.com
@@ -145,13 +148,13 @@ en: &DEFAULT_EN
           # - url: https://linkedin.com
           #   icon: fab fa-linkedin-in
       - name: "Nick DePalma"
-        role: "Semio Community"
+        role: "Independent Scientist <br /> Semio Community"
         image: assets/img/team/nick.jpg
         # social:
         #   - url: https://www.linkedin.com/in/ndepalma/
         #     icon: fab fa-linkedin-in
       - name: "Ross Mead"
-        role: "Founder and CEO - Semio"
+        role: "Founder and CEO <br /> Semio Inc."
         image: assets/img/team/RossMead.jpg
         social:
           # - url: https://twitter.com
@@ -161,7 +164,7 @@ en: &DEFAULT_EN
           # - url: https://linkedin.com
           #   icon: fab fa-linkedin-in
       - name: "Tom Williams"
-        role: "Assistant Professor - Colorado School of Mines"
+        role: "Assistant Professor <br /> Colorado School of Mines"
         image: assets/img/team/tom.jpg
         social:
           # - url: https://twitter.com
@@ -171,7 +174,7 @@ en: &DEFAULT_EN
           # - url: https://linkedin.com
           #   icon: fab fa-linkedin-in
       - name: "Ruchen \"Puck\" Wen"
-        role: "Postdoc - University of Maryland"
+        role: "Postdoc <br /> University of Maryland"
         image: assets/img/team/puck.png
         social:
           # - url: https://twitter.com
