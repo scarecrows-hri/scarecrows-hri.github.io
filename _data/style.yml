@@ -4,5 +4,7 @@
 #black: "#000"
 
 #Image Customization
-header-image: "../img/header-bg2.jpg"
+#header-image: "../img/header-bg2.jpg"
+header-image: "../img/custom/scarecrow-full_transparent.png"
+
 contact-image: "../img/map-image.png"

@@ -11,12 +11,10 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "What are Scarecrows?"
-      section: scarecrows
-    - title: "Workshop details"
+    - title: "Submissions"
       section: details
-    - title: "Format"
-      section: format
+    - title: "Program"
+      section: program
     - title: "Important Dates"
       section: timeline
     - title: "Organizers"

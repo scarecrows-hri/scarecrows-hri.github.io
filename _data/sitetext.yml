@@ -11,36 +11,62 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Large Language Models in HRI
-    text: Scarecrows in Oz
-    button: Tell Me More
-    buttonlink: "#scarecrows"
+    title: "Scarecrows in Oz: Large Language Models <br /> in Human-Robot Interaction"
+    text: "
+    In this workshop we want to explore the ways HRI researchers are using LLMs as \"Scarecrows\" -- components that (possibly brainlessly) approximate 
+    pieces of desired functionality that are currently hard to achieve -- much as HRI researchers use Wizard of Oz in empirical experiments. And, just 
+    as HRI researchers have historically discussed, the pros, cons, and need for reporting guidelines surrounding Wizard of Oz, we're equally 
+    interested in this workshop in exploring the pros, cons, and need for reporting guidelines surrounding the uses of LLMs in HRI. <br /><br /> 
+    
+    We invite research regarding contributions, commentary, and questions about (and combinations of) the following topics of interest: 
 
-  scarecrows:
-    title: "Scarecrows"
-    text: "Scarecrows are reliable, reproducible standins for humans in user-studies within human-robot interaction."
-    section: scarecrows
-    list:
-      - title: "LLMs as Standins (Scarecrows)"
-        desc: "Similar to Wizard of Oz studies, LLMs may be used as standins to potentially control the experiment or the dialog in a reliable way [1].\n\n[1] Williams, T., Matuszek, C., Mead, R., and DePalma, N. (2024).  Scarecrows in Oz: The Use of Large Language Models in HRI. Journal of Human-Robot Interaction."
-        icon: fas fa-ghost #find more at https://fontawesome.com/icons
-      - title: "Humans as Standins"
-        desc: "Traditionally this is called a wizard-of-oz study. These studies use humans as standins for autonomous components to better understand interaction outcomes. See [2] for more details. \n\n [2] Riek, L. D. (2012). Wizard of oz studies in hri: a systematic review and new reporting guidelines. Journal of Human-Robot Interaction, 1(1), 119-136."
-        icon: fas fa-user
-      - title: "LLMs as Nonscarecrows"
-        desc: "Sometimes the user will not have direct interaction with the LLM. In these cases, we see LLMs as components of reasoning applied to gesture generation, navigation, or some other non-verbal task."
-        icon: fas fa-bars
+
+    * the impact of \"stubbing out\" software modules as \"Scarecrows\" (traditionally done with humans in Wizard-of-Oz contexts) by using LLMs when building and testing larger HRI experiments;\n    
+    * opportunities and applications of LLMs in HRI;\n
+    * risks and perils of LLMs in interactive robots;\n
+    * reporting guidelines, ethical considerations, or real-world implications of LLMs in HRI;\n
+    * safety of LLM-driven interaction, and fine-tuned LLMs during interactions with the world or users; and/or\n
+    * position or framing papers on the role of LLMs in HRI."
+    #button: Tell Me More
+    #buttonlink: "#scarecrows"
+
+  # scarecrows:
+  #   title: "Scarecrows"
+  #   text: ""
+  #   section: scarecrows
+  #   list:
+  #     - title: "LLMs as Standins (Scarecrows)"
+  #       desc: "Similar to Wizard of Oz studies, LLMs may be used as standins to potentially control the experiment or the dialog in a reliable way [1].\n\n[1] Williams, T., Matuszek, C., Mead, R., and DePalma, N. (2024).  Scarecrows in Oz: The Use of Large Language Models in HRI. Journal of Human-Robot Interaction."
+  #       icon: fas fa-ghost #find more at https://fontawesome.com/icons
+  #     - title: "Humans as Standins"
+  #       desc: "Traditionally this is called a wizard-of-oz study. These studies use humans as standins for autonomous components to better understand interaction outcomes. See [2] for more details. \n\n [2] Riek, L. D. (2012). Wizard of oz studies in hri: a systematic review and new reporting guidelines. Journal of Human-Robot Interaction, 1(1), 119-136."
+  #       icon: fas fa-user
+  #     - title: "LLMs as Nonscarecrows"
+  #       desc: "Sometimes the user will not have direct interaction with the LLM. In these cases, we see LLMs as components of reasoning applied to gesture generation, navigation, or some other non-verbal task."
+  #       icon: fas fa-bars
 
   details:
-    title: "Workshop Details"
-    text: "This workshop is generally focused on any topics related to the opportunities, risks, and guidelines for the use and reporting of Large Language Models in Human-Robot Interaction scenarios. \n\n If your work focuses on development, implementation, training, evaluation, and deployment of LLMs in HRI, please also consider our companion workshop: ***[[Human – Large Language Model Interaction: The dawn of a new era or the end of it all?](https://human-llm-interaction.github.io)]***."
+    title: "Submission details"
+    text: "This workshop is generally focused on any topics related to the opportunities, risks, and guidelines for the use and reporting of Large Language Models in Human-Robot Interaction scenarios. \n\n If your work focuses on development, implementation, training, evaluation, and deployment of LLMs in HRI, please also consider our companion workshop: ***[[Human – Large Language Model Interaction: The dawn of a new era or the end of it all?](https://human-llm-interaction.github.io)]***.\n\n
+
+    ---
+
+    ### Paper format
+
+    Authors are invited to submit short papers of 2-4 pages on the topic of the use of LLMs in HRI; submissions are due by January 29, 2024. Submissions should be made using the [ACM template](https://www.acm.org/publications/proceedings-template); Overleaf provides an appropriate [template](https://www.overleaf.com/latex/templates/acm-conference-proceedings-primary-article-template/wbvnghjbzwpc) that may be used. Submissions will be made through EasyChair; the submission site will open on January 15, 2024.
+
+    ### Submission site is open
+    
+    [EasyChair Link](https://easychair.org/conferences/?conf=sohri24)
+    "
+
     section: details
     closebutton: "Return back"
 
-  format:
-    title: "Paper format"
-    text: "Papers are to be submitted as short papers of 2-4 pages on the topic of the use of LLMs in HRI. Submissions should be made using the <a href=\"https://www.acm.org/publications/proceedings-template\">ACM template</a>. Alternatively, authors may use the provided Overleaf <a href=\"https://www.overleaf.com/latex/templates/acm-conference-proceedings-primary-article-template/wbvnghjbzwpc\">template</a>; Overleaf provides an appropriate template that may be used. Submissions will be made through EasyChair; the submission site will open on January 15, 2024. We will provide a link soon."
-    section: format
+  program:
+    title: "Program"
+    text: "Workshop schedule and speakers to come."
+    section: program
     closebutton: "Return back"
 
   dates:
@@ -50,8 +76,8 @@ en: &DEFAULT_EN
     closebutton: "Return back"
 
   timeline:
-    title: "Timeline"
-    text: "Schedule of important dates"
+    title: "Dates"
+    text: ""
     section: timeline
     # left is the default
     #start_align: "left"
@@ -119,7 +145,7 @@ en: &DEFAULT_EN
           # - url: https://linkedin.com
           #   icon: fab fa-linkedin-in
       - name: "Nick DePalma"
-        role: "Independent Scientist"
+        role: "Semio Community"
         image: assets/img/team/nick.jpg
         # social:
         #   - url: https://www.linkedin.com/in/ndepalma/
@@ -173,16 +199,18 @@ en: &DEFAULT_EN
   footer:
     legal: "Privacy Policy"
     social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
-        icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
+      - url: mailto:hri2024scarecrows@gmail.com
+        icon: "fas fa-envelope"
+      # - url: https://twitter.com
+      #   icon: "fab fa-twitter"
+      # - url: https://facebook.com
+      #   icon: "fab fa-facebook-f"
+      # - url: https://linkedin.com
+      #   icon: "fab fa-linkedin-in"
+      # - url: https://github.com/raviriley/agency-jekyll-theme
+      #   icon: "fab fa-github"
+      # - url: https://instagram.com
+      #   icon: "fab fa-instagram"
 en-US:
   <<: *DEFAULT_EN
 en-CA:
