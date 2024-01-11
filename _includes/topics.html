@@ -1,0 +1,51 @@
+<!-- program -->
+{% if site.locale and site.locale != "" and site.locale != nil %}
+<section class="page-section" id="{{ site.data.sitetext[site.locale].topics.section | default: "format" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].topics.title | default: "Topics of interest" }}</h2>
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].topics.text | default: "" }}</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <p class="section-body text-muted">In recent years, Large Language Models (LLMs) have become the focus of intense interest in the AI community and their use in interactive robots for academic research and commercial products has had equal interest; however, there do not currently exist guidelines for or categorizations of their use in various application spaces in Human-Robot Interaction (HRI). <br /><br />
+
+          This workshop invites academic researchers and industry professionals who are actively using or are interested in using LLMs for HRI, and who can contribute to the development of high-level, community-wide guidelines for how LLMs can fit correctly and defensibly into the future of HRI research and development. <br /><br />
+      
+          Relevant topics to this workshop will include HRI studies that either directly or indirectly involve LLMs, as well as HRI studies that utilize the idea of “Scarecrows” (i.e. using LLMs to provide placeholder functionality, similar to Wizard-of-Oz studies) within a larger HRI system; however, we also encourage broader questions and contributions regarding how these models should be conceptualized within frameworks for effective, responsible HRI. <br /><br />
+        
+          We invite research regarding contributions, commentary, and questions about (and combinations of) the following topics of interest: <br /><br />
+
+          <ul class="section-body text-muted">
+            <li class="section-body text-muted">the impact of "stubbing out" software modules as "Scarecrows" (traditionally done with humans in Wizard-of-Oz contexts) by using LLMs when building and testing larger HRI experiments;</li>
+            <li class="section-body text-muted">opportunities and applications of LLMs in HRI;</li>
+            <li class="section-body text-muted">risks and perils of LLMs in interactive robots;</li>
+            <li class="section-body text-muted">reporting guidelines, ethical considerations, or real-world implications of LLMs in HRI;</li>
+            <li class="section-body text-muted">safety of LLM-driven interaction, and fine-tuned LLMs during interactions with the world or users; and/or</li>
+            <li class="section-body text-muted">position or framing papers on the role of LLMs in HRI.</li>
+          </ul>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+{% else %}
+<section class="page-section" id="{{ site.data.sitetext.topics.section | default: "topics" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.topics.title | default: "Topics of interest" }}</h2>
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext.topics.text | default: "" }}</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <p class="section-body text-muted">{{ site.data.sitetext.topics.body }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+<!-- End program -->

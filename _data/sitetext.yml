@@ -11,22 +11,12 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: "Scarecrows in Oz: Large Language Models <br /> in Human-Robot Interaction"
+    title: "Scarecrows in Oz: Large Language Models in Human-Robot Interaction"
     text: "
     In this workshop we want to explore the ways HRI researchers are using LLMs as \"Scarecrows\" -- components that (possibly brainlessly) approximate 
     pieces of desired functionality that are currently hard to achieve -- much as HRI researchers use Wizard of Oz in empirical experiments. And, just 
     as HRI researchers have historically discussed, the pros, cons, and need for reporting guidelines surrounding Wizard of Oz, we're equally 
-    interested in this workshop in exploring the pros, cons, and need for reporting guidelines surrounding the uses of LLMs in HRI. <br /><br /> 
-    
-    We invite research regarding contributions, commentary, and questions about (and combinations of) the following topics of interest: 
-
-
-    * the impact of \"stubbing out\" software modules as \"Scarecrows\" (traditionally done with humans in Wizard-of-Oz contexts) by using LLMs when building and testing larger HRI experiments;\n    
-    * opportunities and applications of LLMs in HRI;\n
-    * risks and perils of LLMs in interactive robots;\n
-    * reporting guidelines, ethical considerations, or real-world implications of LLMs in HRI;\n
-    * safety of LLM-driven interaction, and fine-tuned LLMs during interactions with the world or users; and/or\n
-    * position or framing papers on the role of LLMs in HRI."
+    interested in this workshop in exploring the pros, cons, and need for reporting guidelines surrounding the uses of LLMs in HRI."
     #button: Tell Me More
     #buttonlink: "#scarecrows"
 
@@ -51,15 +41,8 @@ en: &DEFAULT_EN
 
     ---
 
-    ### Paper format
-
-    Authors are invited to submit short papers of 2-4 pages on the topic of the use of LLMs in HRI; submissions are due by January 29, 2024. Submissions should be made using the [ACM template](https://www.acm.org/publications/proceedings-template); Overleaf provides an appropriate [template](https://www.overleaf.com/latex/templates/acm-conference-proceedings-primary-article-template/wbvnghjbzwpc) that may be used. Submissions will be made through EasyChair; the submission site will open on January 15, 2024.
-
-    ### Submission site is open
-    
-    [EasyChair Link](https://easychair.org/conferences/?conf=sohri24)
+    Authors are invited to submit short papers of 2-4 pages on the topic of the use of LLMs in HRI; submissions are due by January 29, 2024. Submissions should be made using the [ACM template](https://www.acm.org/publications/proceedings-template); Overleaf provides an appropriate [template](https://www.overleaf.com/latex/templates/acm-conference-proceedings-primary-article-template/wbvnghjbzwpc) that may be used. Submissions will be made through EasyChair at the following link: [https://easychair.org/conferences/?conf=sohri24](https://easychair.org/conferences/?conf=sohri24)
     "
-
     section: details
     closebutton: "Return back"
 
@@ -67,6 +50,19 @@ en: &DEFAULT_EN
     title: "Program"
     text: "Workshop schedule and speakers to come."
     section: program
+    closebutton: "Return back"
+
+  topics:
+    title: "Topics of interest"
+    text: ""
+    body: "
+    ### In recent years, Large Language Models (LLMs) have become the focus of intense interest in the AI community and their use in interactive robots for academic research and commercial products has had equal interest; however, there do not currently exist guidelines for or categorizations of their use in various application spaces in Human-Robot Interaction (HRI).
+
+    This workshop invites academic researchers and industry professionals who are actively using or are interested in using LLMs for HRI, and who can contribute to the development of high-level, community-wide guidelines for how LLMs can fit correctly and defensibly into the future of HRI research and development.
+
+    Relevant topics to this workshop will include HRI studies that either directly or indirectly involve LLMs, as well as HRI studies that utilize the idea of “Scarecrows” (i.e. using LLMs to provide placeholder functionality, similar to Wizard-of-Oz studies) within a larger HRI system; however, we also encourage broader questions and contributions regarding how these models should be conceptualized within frameworks for effective, responsible HRI.
+"
+    section: topics
     closebutton: "Return back"
 
   dates:
@@ -87,7 +83,7 @@ en: &DEFAULT_EN
         desc: "[EasyChair Link](https://easychair.org/conferences/?conf=sohri24)"
         image: assets/img/timeline/2.jpg
         alt:
-      - title: "Submission Deadline"
+      - title: "Submission deadline"
         year: "January 29, 2024"
         desc: "Short papers, 2-4 pages: [Submit here](https://easychair.org/conferences/?conf=sohri24)."
         image: assets/img/timeline/1.jpg
@@ -138,7 +134,7 @@ en: &DEFAULT_EN
     section: organizers
     people:
       - name: "Cynthia Matuszek"
-        role: "Associate Professor <br /> University of Maryland"
+        role: "Associate Professor <br /> University of Maryland, Baltimore County"
         image: assets/img/team/cmat.png
         social:
           # - url: https://twitter.com
@@ -154,7 +150,7 @@ en: &DEFAULT_EN
         #   - url: https://www.linkedin.com/in/ndepalma/
         #     icon: fab fa-linkedin-in
       - name: "Ross Mead"
-        role: "Founder and CEO <br /> Semio Inc."
+        role: "Founder and CEO <br /> Semio"
         image: assets/img/team/RossMead.jpg
         social:
           # - url: https://twitter.com
@@ -174,7 +170,7 @@ en: &DEFAULT_EN
           # - url: https://linkedin.com
           #   icon: fab fa-linkedin-in
       - name: "Ruchen \"Puck\" Wen"
-        role: "Postdoc <br /> University of Maryland"
+        role: "Postdoc <br /> University of Maryland, Baltimore County"
         image: assets/img/team/puck.png
         social:
           # - url: https://twitter.com
