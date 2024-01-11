@@ -80,7 +80,7 @@ en: &DEFAULT_EN
     events:
       - title: "Submission site opens"
         year: "January 15, 2024"
-        desc: "[EasyChair Link](https://easychair.org/conferences/?conf=sohri24)"
+        desc: ""
         image: assets/img/timeline/2.jpg
         alt:
       - title: "Submission deadline"
