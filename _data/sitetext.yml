@@ -41,7 +41,7 @@ en: &DEFAULT_EN
 
     ---
 
-    Authors are invited to submit short papers of 2-4 pages on the topic of the use of LLMs in HRI; submissions are due by January 29, 2024. Submissions should be made using the [ACM template](https://www.acm.org/publications/proceedings-template); Overleaf provides an appropriate [template](https://www.overleaf.com/latex/templates/acm-conference-proceedings-primary-article-template/wbvnghjbzwpc) that may be used. Submissions will be made through EasyChair at the following link: [https://easychair.org/conferences/?conf=sohri24](https://easychair.org/conferences/?conf=sohri24)
+    Authors are invited to submit short papers of 2-4 pages on the topic of the use of LLMs in HRI; submissions are due by January 29, 2024. Submissions should be made using the [ACM template](https://www.acm.org/publications/proceedings-template); Overleaf provides an appropriate [template](https://www.overleaf.com/latex/templates/acm-conference-proceedings-primary-article-template/wbvnghjbzwpc) that may be used. All submissions should be __anonymized for blind review__. Submissions will be made through EasyChair at the following link: [https://easychair.org/conferences/?conf=sohri24](https://easychair.org/conferences/?conf=sohri24)
     "
     section: details
     closebutton: "Return back"
@@ -85,7 +85,7 @@ en: &DEFAULT_EN
         alt:
       - title: "Submission deadline"
         year: "January 29, 2024"
-        desc: "Short papers, 2-4 pages: [Submit here](https://easychair.org/conferences/?conf=sohri24)."
+        desc: "Anonymized, short papers, 2-4 pages: [Submit here](https://easychair.org/conferences/?conf=sohri24)."
         image: assets/img/timeline/1.jpg
         alt:
       - title: "Submission notification"
