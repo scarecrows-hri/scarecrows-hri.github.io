@@ -26,6 +26,7 @@ $contact-image: "{{ site.data.style.contact-image }}";
 @import "layout/masthead.scss";
 @import "layout/scarecrows.scss";
 @import "layout/details.scss";
+@import "layout/program.scss";
 @import "layout/timeline.scss";
 @import "layout/organizers.scss";
 @import "layout/contact.scss";

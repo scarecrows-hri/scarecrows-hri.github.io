@@ -50,8 +50,41 @@ en: &DEFAULT_EN
     title: "Program"
     text: "Workshop schedule and speakers to come."
     section: program
-    closebutton: "Return back"
-
+    timezone: "Time (MST)"
+    header: "Item"
+    programitems: 
+      - time: "9:00am-9:10am"
+        item: "Introductions"
+      - time: "09:10am-9:35am"
+        item: "<b><i>Lightning</i></b> Talks"
+        altbk: true
+        subitems:
+          - talktitle: "Toward LLM-Powered Social Robots for Supporting Sensitive Disclosures of Stigmatized Health Conditions<br><i>Alemitu Bezabih, Shadi Nourriz and Estelle Smith</i>"
+          - talktitle: "Enhancing Human-Robot Interaction with Multimodal Large Language Models<br><i>Jorge Ortiz, Matthew Grimalovsky and Hedaya Walter</i>"
+            nbg: true
+          - talktitle: "Large Language Models as Proxies for Evaluating Collaborative Norms<br><i>Michelle Zhao, Hao Zhu, Reid Simmons, Yonatan Bisk and Henny Admoni</i>"
+          - talktitle: "Exploring the Utilities of LLM’s in Robot-Supported Mindfulness Practices<br><i>Shrirang Patil, Theing Mwe Oo and Heather Knight</i>"
+            nbg: true
+          - talktitle: "Hidden Scarecrows: Potential Consequences of Inaccurate Assumptions About LLMs in Robotic Moral Reasoning<br><i>Terran Mott and Tom Williams</i>"
+          
+      - time: "09:35am-10:05am"
+        item: "<b>Thunder</b> Talk 1 - Casey Kennington"
+      - time: "10:05am-10:30am"
+        item: "Coffee Break and Networking"
+        altbk: true
+      - time: "10:30am-11:00am"
+        item: "<b>Thunder</b> Talk 2 - Laurel Reik"
+      - time: "11:00am-11:20am"
+        item: "Panel / Q&A"
+        altbk: true
+      - time: "11:20am-12:20pm"
+        item: "Brainstorm Breakout Session"
+      - time: "12:20pm-12:50pm"
+        item: "Brainstorm Reporting and Discussion"
+        altbk: true
+      - time: "12:50pm-13:00pm"
+        item: "Closing Remarks and Next Steps"
+        
   topics:
     title: "Topics of interest"
     text: ""
