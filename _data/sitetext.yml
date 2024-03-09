@@ -59,13 +59,13 @@ en: &DEFAULT_EN
         item: "<b><i>Lightning</i></b> Talks"
         altbk: true
         subitems:
-          - talktitle: "Toward LLM-Powered Social Robots for Supporting Sensitive Disclosures of Stigmatized Health Conditions<br><i>Alemitu Bezabih, Shadi Nourriz and Estelle Smith</i>"
-          - talktitle: "Enhancing Human-Robot Interaction with Multimodal Large Language Models<br><i>Jorge Ortiz, Matthew Grimalovsky and Hedaya Walter</i>"
+          - talktitle: "<a href=\"assets/pdfs/paper_1.pdf\">[PDF]</a>  Toward LLM-Powered Social Robots for Supporting Sensitive Disclosures of Stigmatized Health Conditions<br><i>Alemitu Bezabih, Shadi Nourriz and Estelle Smith</i>"
+          - talktitle: "<a href=\"assets/pdfs/paper_2.pdf\">[PDF]</a>  Enhancing Human-Robot Interaction with Multimodal Large Language Models<br><i>Jorge Ortiz, Matthew Grimalovsky and Hedaya Walter</i>"
             nbg: true
-          - talktitle: "Large Language Models as Proxies for Evaluating Collaborative Norms<br><i>Michelle Zhao, Hao Zhu, Reid Simmons, Yonatan Bisk and Henny Admoni</i>"
-          - talktitle: "Exploring the Utilities of LLM’s in Robot-Supported Mindfulness Practices<br><i>Shrirang Patil, Theing Mwe Oo and Heather Knight</i>"
+          - talktitle: "<a href=\"assets/pdfs/paper_3.pdf\">[PDF]</a>  Large Language Models as Proxies for Evaluating Collaborative Norms<br><i>Michelle Zhao, Hao Zhu, Reid Simmons, Yonatan Bisk and Henny Admoni</i>"
+          - talktitle: "<a href=\"assets/pdfs/paper_4.pdf\">[PDF]</a>  Exploring the Utilities of LLM’s in Robot-Supported Mindfulness Practices<br><i>Shrirang Patil, Theing Mwe Oo and Heather Knight</i>"
             nbg: true
-          - talktitle: "Hidden Scarecrows: Potential Consequences of Inaccurate Assumptions About LLMs in Robotic Moral Reasoning<br><i>Terran Mott and Tom Williams</i>"
+          - talktitle: "<a href=\"assets/pdfs/paper_5.pdf\">[PDF]</a>  Hidden Scarecrows: Potential Consequences of Inaccurate Assumptions About LLMs in Robotic Moral Reasoning<br><i>Terran Mott and Tom Williams</i>"
           
       - time: "09:35am-10:05am"
         item: "<b>Thunder</b> Talk 1 - Casey Kennington"
